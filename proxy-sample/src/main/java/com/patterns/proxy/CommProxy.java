@@ -2,7 +2,7 @@ package com.patterns.proxy;
 
 public class CommProxy implements Comm{
 
-	private static CommImpl comm;
+	private  CommImpl comm;
     private boolean isAlive;
     
 	public CommProxy() {
